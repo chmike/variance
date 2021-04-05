@@ -13,8 +13,8 @@ also be removed to compute the mean or variance of a sliding window.
 	fmt.Println(acc.Mean())     // outputs 1.
 	fmt.Println(acc.Variance()) // outputs 1.
 	acc.Del(0)
-	fmt.Println(acc.Mean())     // outputs 1.25
-	fmt.Println(acc.Variance()) // outputs 1.625
+	fmt.Println(acc.Mean())     // outputs 1.5
+	fmt.Println(acc.Variance()) // outputs 0.5
 */
 package variance
 

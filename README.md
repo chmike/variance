@@ -25,6 +25,6 @@ acc.Add(2)
 fmt.Println(acc.Mean())     // outputs 1.
 fmt.Println(acc.Variance()) // outputs 1.
 acc.Del(0)
-fmt.Println(acc.Mean())     // outputs 1.25
-fmt.Println(acc.Variance()) // outputs 1.625
+fmt.Println(acc.Mean())     // outputs 1.5
+fmt.Println(acc.Variance()) // outputs 0.5
 ```

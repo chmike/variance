@@ -14,11 +14,11 @@ func TestVariance(t *testing.T) {
 	if exp, got := 1., acc.Variance(); got != exp {
 		t.Error("expect variance", exp, "got", got)
 	}
-	acc.Del(0.5)
-	if exp, got := 1.25, acc.Mean(); got != exp {
+	acc.Del(0)
+	if exp, got := 1.5, acc.Mean(); got != exp {
 		t.Error("expect mean", exp, "got", got)
 	}
-	if exp, got := 1.625, acc.Variance(); got != exp {
+	if exp, got := 0.5, acc.Variance(); got != exp {
 		t.Error("expect variance", exp, "got", got)
 	}
 }
